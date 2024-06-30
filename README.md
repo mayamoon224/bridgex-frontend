@@ -8,9 +8,9 @@ This project is a dApp developed on the OpenGPU devnet, aiming to facilitate cro
 - **ORC20 Contract Link:** [https://devnet.ogpuscan.io/address/0xAb8ba3A7A09b3b5053360CedfFA76726b1917074?tab=contract](#)
 - **Token Addresses:**
 
-  - **OpenGPU:** `0xAb8ba3A7A09b3b5053360CedfFA76726b1917074`
-  - **BSC:** `0x6002D0787eF9F2ea89731a7431Cebd072547b684`
-  - **Ethereum:** `0xAb8ba3A7A09b3b5053360CedfFA76726b1917074`
+  - **OpenGPU Devnet:** `0xAb8ba3A7A09b3b5053360CedfFA76726b1917074`
+  - **BSC Testnet:** `0x6002D0787eF9F2ea89731a7431Cebd072547b684`
+  - **Ethereum Sepolia:** `0xAb8ba3A7A09b3b5053360CedfFA76726b1917074`
 
 - **OGPU Devnet Transaction Links:**
   - [https://devnet.ogpuscan.io/tx/0xe274a244df6ec34ed58b607634bd229185a3b98e90fba89ea52533033d3966b9](#)
