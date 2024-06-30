@@ -1,0 +1,65 @@
+.header {
+  height: 72px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1400px;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.header-logo img {
+  height: 45px;
+  width: auto;
+  border-radius: 50%;
+  /* background: #fff; */
+}
+
+.header-logo span {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Economica", sans-serif;
+}
+
+.connect-btn {
+  background: #135b73;
+  width: auto;
+  height: 41px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.wrong-network {
+  background: #fa3939;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-wrapper {
+    padding: 0 1rem;
+  }
+}

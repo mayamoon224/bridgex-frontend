@@ -1,0 +1,151 @@
+.bridge-component {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.bridge-box-chain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.bridge-box-chain button {
+  background: #ffffff76;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.bridge-box-chain button img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.bridge-box-chain button img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.bridge-box-chain-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+  width: calc(100% - 64px - 16px);
+}
+
+.bridge-box-chain-names span:first-child {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.bridge-box-chain-names span:last-child {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: -4px;
+}
+
+.divider {
+  width: 100%;
+  margin: 4px 0;
+}
+
+.divider svg {
+  width: 24px;
+  height: 24px;
+  margin-left: 80px;
+}
+
+.bridge-box-amount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  background: #fff;
+  width: 100%;
+  border-radius: 8px;
+  height: 40px;
+  padding: 4px 8px;
+  margin-top: 1rem;
+}
+
+.bridge-box-amount img {
+  width: 24px;
+  height: 24px;
+}
+
+.bridge-box-amount input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
+.bridge-box-balances {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 8px;
+}
+
+.bridge-box-balances button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 8px;
+  background: #ffffff20;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.bridge-box-balances button:hover {
+  background: #ffffff51;
+}
+
+.bridge-box-button {
+  background: #ffffff76;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+}
+
+.bridge-box-button:hover {
+  background: #ffffff9e;
+  transition: 0.3s;
+}
+
+.bridge-box-select {
+  width: 100%;
+}
+
+.ant-select-selector {
+  background: none !important;
+  border: none !important;
+  color: #000 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.ant-select-single {
+  height: auto !important;
+}
