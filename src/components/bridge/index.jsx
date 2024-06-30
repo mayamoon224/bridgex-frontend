@@ -193,9 +193,8 @@ function Bridge() {
       return;
     }
     try {
-      // let res = await axios.get("http://localhost:5001/api/history/" + address);
       let res = await axios.get(
-        "https://ogpu-bridge-back.vercel.app/api/history/" + address
+        "https://bridgex-backend.vercel.app/api/history/" + address
       );
 
       if (res?.status == 200) {
